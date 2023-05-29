@@ -1,0 +1,39 @@
+.content{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(208, 171, 61) 0%, rgba(255,145,83,1) 90% );
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+section{
+    padding: 0 19%;
+}
+
+.content-text h1{
+    font-size: 40px;
+    line-height: 1;
+    color: white;
+    margin: 0 0 45px;
+}
+
+.content-text p{
+    color: white;
+}
+
+.content-text a{
+    display: inline-block;
+    color: black;
+    background: #fff;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
