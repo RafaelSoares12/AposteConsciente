@@ -22,6 +22,10 @@ section.help-you{
     gap: 1rem;
 }
 .main-content h1 {
-    font-size: 45px;
-    /* margin-bottom: 1rem; */
+    font-size: 53px;
+    line-height: 1.3;
+    background: -webkit-linear-gradient(#faeb24, #857f0f);    
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent;
+
 }
