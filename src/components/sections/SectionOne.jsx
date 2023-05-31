@@ -1,6 +1,6 @@
-import styles from './Section.css'
+import styles from './SectionOne.css'
 
-export function Section(){
+export function SectionOne(){
     return(
         <section className="help-you">
             <div className="main-content">
@@ -11,7 +11,7 @@ export function Section(){
                 <h2><a href="#">Saiba mais</a></h2>
             </div>
             <div className="main-img">
-                <img src="public/img-support.svg" alt="" />
+                <img src="img-support-2.svg" alt="" />
             </div>
         </section>
     );
