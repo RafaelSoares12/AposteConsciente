@@ -2,7 +2,8 @@ import { useState } from 'react'
 import { Header } from './components/Header'
 import { Content } from './components/Content'
 import { Footer } from './components/Footer'
-import {Section} from './components/sections/Section'
+import {SectionOne} from './components/sections/SectionOne'
+import {SectionTwo} from './components/sections/SectionTwo'
 
 function App() {
 
@@ -15,7 +16,10 @@ function App() {
           <Content />
         </div>
         <div>
-          <Section/>
+          <SectionOne/>
+        </div>
+        <div className="section-2">
+          <SectionTwo/>
         </div>
         <div>
           <Footer/>
