@@ -10,7 +10,7 @@ export function Content(){
                 <a href="#">Preencha o formulario</a>
             </div>
             <div className="content-img">
-                <img src="public/img-homem-frustrado.png" alt="" />
+                <img src="img-homem-frustrado.png" alt="" />
             </div>
         </section>
             // <RedeNacional/>
